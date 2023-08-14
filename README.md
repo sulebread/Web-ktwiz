@@ -1,4 +1,2 @@
-# C-Study
-haky's C Study Repository
-
-C언어 과제를 올립니다.
+# WEb-ktwiz
+dynamically draw history card of baseball players 😮

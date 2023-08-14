@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Oleo+Script&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700;900&display=swap%27');
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Noto Sans KR';
+}
+
+.subNav{
+    background: url("media/playerBanner.png") no-repeat center center;
+    opacity: 80%;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    align-items: flex-end;
+}
+
+.subNav ul{
+    align-items: flex-end;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 40px;
+    background-color:red;
+    opacity: 50%;
+}
+
+.subNav li{
+    list-style: none;
+    margin: 0 50px;
+    display: inline-flex;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subNav li:hover{
+    border-bottom: chartreuse;
+}
+
+.subNav a{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.playerGridContainer{
+    width: 100vw;
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.playerGridView ul{
+    align-self: auto;
+}
+
+.playerGridView li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.playerGridView img{
+    border: 1px solid lightgray;
+}
+
+.playerInfo{
+    display: block;
+}
+
+.playerBacknum{
+    float : left;
+    color: #ec0a0b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.playerName{
+    float: right;
+    color: #222;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.postionTitle{
+    height: 100px;
+    width: 100vw;
+    background-color: #222;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px 0;
+}

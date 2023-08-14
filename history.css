@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.historyYear {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.history{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.historyCard{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.historyCard::after{
+    content: "";
+    display: block;
+    flex-basis: clac(50% - 2px);
+    border: 2px solid red;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+.historyCard:nth-child(odd){
+    flex-grow: 1;
+    
+}
+
+.historyCard:nth-child(even){
+    flex-grow: 2;
+}

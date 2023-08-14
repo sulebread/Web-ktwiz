@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>kt wiz</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="player.css">
+        <script src="nav.js"></script>
+        <script src="playerList.js" type="module"></script>
+    </head>
+    <body>
+        <header id="headerNav"></header>
+        <main>
+            <nav>
+            <div class="subNav">
+                <ul>
+                    <li>
+                        <a href="#pitcher">투수</a> 
+                    </li>
+                    <li>
+                        <a href="#catcher">포수</a> 
+                    </li>
+                    <li>
+                        <a href="#infielder">내야수</a> 
+                    </li>
+                    <li>
+                        <a href="#outfielder">외야수</a> 
+                    </li>
+                </ul>
+            </div>
+            </nav>
+            <section class="playerGridSection">
+                <div class="playerGridContainer">
+                    <div class="playerGridView">
+                        <div class="postionTitle" id="pitcher">투수</div>
+                        <ul class="pitcherList" id="pitcherList">
+                        </ul>
+                    </div>
+                    <div class="playerGridView">
+                        <div class="postionTitle" id="catcher">포수</div>
+                        <ul class="catcherList" id="catcherList">
+                        </ul>
+                    </div> 
+                    <div class="playerGridView">
+                        <div class="postionTitle" id="infielder">내야수</div>
+                        <ul class="infielderList" id="infielderList">
+                        </ul>
+                    </div>
+                    <div class="playerGridView">
+                        <div class="postionTitle" id="outfielder">외야수</div>
+                        <ul class="outfielderList" id="outfielderList">
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

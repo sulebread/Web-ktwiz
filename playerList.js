@@ -1,14 +1,14 @@
-import playerList from "./playerData.json" assert{type:"json"};
+import playerList from "./playerData.json" assert{type: "json"};
 // console.log(playerList);
 drawPitcher();
 drawCatcher();
 drawInfielder();
 drawOutfielder();
 
-function drawPitcher(){
+function drawPitcher() {
     let pitcherUl = document.getElementById("pitcherList");
-    
-    for(let i = 0; i < playerList.pitcher.length; i++){
+
+    for (let i = 0; i < playerList.pitcher.length; i++) {
         //html 요소 생성
         let playerLi = document.createElement("li");
         let playerArticle = document.createElement("article");
@@ -34,10 +34,10 @@ function drawPitcher(){
     }
 }
 
-function drawCatcher(){
+function drawCatcher() {
     let catcherUl = document.getElementById("catcherList");
-    
-    for(let i = 0; i < playerList.catcher.length; i++){
+
+    for (let i = 0; i < playerList.catcher.length; i++) {
         //html 요소 생성
         let playerLi = document.createElement("li");
         let playerArticle = document.createElement("article");
@@ -63,10 +63,10 @@ function drawCatcher(){
     }
 }
 
-function drawInfielder(){
+function drawInfielder() {
     let infielderUl = document.getElementById("infielderList");
-    
-    for(let i = 0; i < playerList.infielder.length; i++){
+
+    for (let i = 0; i < playerList.infielder.length; i++) {
         //html 요소 생성
         let playerLi = document.createElement("li");
         let playerArticle = document.createElement("article");
@@ -92,10 +92,10 @@ function drawInfielder(){
     }
 }
 
-function drawOutfielder(){
+function drawOutfielder() {
     let outfielderUl = document.getElementById("outfielderList");
-    
-    for(let i = 0; i < playerList.outfielder.length; i++){
+
+    for (let i = 0; i < playerList.outfielder.length; i++) {
         //html 요소 생성
         let playerLi = document.createElement("li");
         let playerArticle = document.createElement("article");

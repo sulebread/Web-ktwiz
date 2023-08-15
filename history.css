@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.wrapper{
+.wrapper {
     width: 100vw;
     height: 100vh;
 }
@@ -17,19 +17,19 @@ body{
     font-size: 16px;
 }
 
-.history{
+.history {
     display: flex;
     flex-flow: row wrap;
     width: 100vw;
     height: 100vh;
 }
 
-.historyCard{
+.historyCard {
     width: 50%;
     /* border: 1px solid black; */
 }
 
-.historyCard::after{
+.historyCard::after {
     content: "";
     display: block;
     flex-basis: clac(50% - 2px);
@@ -39,11 +39,11 @@ body{
     left: 50%;
 }
 
-.historyCard:nth-child(odd){
+.historyCard:nth-child(odd) {
     flex-grow: 1;
-    
+
 }
 
-.historyCard:nth-child(even){
+.historyCard:nth-child(even) {
     flex-grow: 2;
 }

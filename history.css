@@ -25,25 +25,16 @@ body {
 }
 
 .historyCard {
-    width: 50%;
-    /* border: 1px solid black; */
-}
-
-.historyCard::after {
-    content: "";
-    display: block;
-    flex-basis: clac(50% - 2px);
-    border: 2px solid red;
-    height: 100%;
-    position: absolute;
-    left: 50%;
+    box-sizing: border-box; /* 핵심: 박스 사이즈가 테두리를 포함! */
+    flex: 50%; /* 각 요소가 50%씩 차지 */
+    position: relative;
+    padding: 20px;
 }
 
 .historyCard:nth-child(odd) {
-    flex-grow: 1;
-
+    border-right: 2px solid red;
 }
 
 .historyCard:nth-child(even) {
-    flex-grow: 2;
+    border-left: 2px solid red;
 }

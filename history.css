@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.wrapper{
+.wrapper {
     width: 100vw;
     height: 100vh;
 }
@@ -17,33 +17,24 @@ body{
     font-size: 16px;
 }
 
-.history{
+.history {
     display: flex;
     flex-flow: row wrap;
     width: 100vw;
     height: 100vh;
 }
 
-.historyCard{
-    width: 50%;
-    /* border: 1px solid black; */
+.historyCard {
+    box-sizing: border-box; /* 핵심: 박스 사이즈가 테두리를 포함! */
+    flex: 50%; /* 각 요소가 50%씩 차지 */
+    position: relative;
+    padding: 20px;
 }
 
-.historyCard::after{
-    content: "";
-    display: block;
-    flex-basis: clac(50% - 2px);
-    border: 2px solid red;
-    height: 100%;
-    position: absolute;
-    left: 50%;
+.historyCard:nth-child(odd) {
+    border-right: 2px solid red;
 }
 
-.historyCard:nth-child(odd){
-    flex-grow: 1;
-    
-}
-
-.historyCard:nth-child(even){
-    flex-grow: 2;
+.historyCard:nth-child(even) {
+    border-left: 2px solid red;
 }

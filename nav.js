@@ -22,7 +22,7 @@ const headerNavContent = `
     </div>
 `;
 
-window.onload = function(){
+window.onload = function () {
     const headerNav = document.getElementById("headerNav");
     headerNav.innerHTML = headerNavContent;
 }

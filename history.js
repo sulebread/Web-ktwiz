@@ -1,7 +1,6 @@
-import historyList from "./history.json" assert{type: "json"};
-
-// drawHistory();
-drawHistory();
+window.onload = function() {
+    drawHistory();
+}
 
 function drawHistory() {
     let historyBox = document.getElementById("historyGridView");

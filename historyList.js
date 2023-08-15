@@ -1,4 +1,4 @@
-{
+const historyList = {
     "totalhistory": [
         {
             "year": 2013,

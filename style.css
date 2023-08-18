@@ -1,12 +1,13 @@
 body{
 }
 
-.headerNav{
+.headerNav, .footerNav{
     background-color: black;
     height: 100px;
     display: flex;
     flex-direction: row;
     width: 100vw;
+    align-items: center;
 }
 
 .gnb-logo{

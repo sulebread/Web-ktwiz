@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Oleo+Script&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700;900&display=swap%27');
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Noto Sans KR';
+}
+
+.photoGridContainer{
+    width: 100vw;
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.photoGridContainer ul{
+    align-self: auto;
+}
+
+.photoGridContainer li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.photoCard{
+    position: flex;
+
+}
+
+.photoImg{
+    width: 20vw ;
+}
+
+.photoSub{
+    display: block;
+}

@@ -20,6 +20,9 @@ const headerNavContent = `
                 <li>
                     <a href="wizpark.html">Wiz Park</a>
                 </li>
+                <li>
+                    <a href="media.html">Media</a>
+                </li>
             </ul>
         </nav>
     </div>

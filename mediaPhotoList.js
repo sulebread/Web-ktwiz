@@ -23,12 +23,6 @@ const photoList = {
             "Title":"배정대선수!",
             "url": "https://wizzap.ktwiz.co.kr/files/article/2023/08/18/20230818102637.296-15d453c54c3d.jpg",
             "date": "2023.08.18"
-        },
-        {
-            "subTitle": "8월 17일 두산과의 경기",
-            "Title":"배정대선수!",
-            "url": "",
-            "date": "2023.08.18"
         }
     ]   
 }

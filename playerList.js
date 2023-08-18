@@ -1,9 +1,9 @@
-import playerList from "./playerData.json" assert{type:"json"};
-// console.log(playerList);
-drawPitcher();
-drawCatcher();
-drawInfielder();
-drawOutfielder();
+window.onload = function (){
+    drawPitcher();
+    drawCatcher();
+    drawInfielder();
+    drawOutfielder();
+}
 
 function drawPitcher(){
     let pitcherUl = document.getElementById("pitcherList");

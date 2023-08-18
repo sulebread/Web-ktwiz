@@ -1,7 +1,6 @@
-import historyList from "./history.json" assert{type:"json"};
-
-// drawHistory();
-drawHistory();
+window.onload = function () {
+    drawHistory();
+}
 
 function drawHistory(){
     let historyBox = document.getElementById("historyGridView");
@@ -15,11 +14,10 @@ function drawHistory(){
         
         historyCard.className = "historyCard";
         year.className = "historyYear";
-        historyDesc.className = "historyDesc";
         year.textContent = currentHistory.year;
         
         historyBox.append(historyCard);
-        historyCard.append(year, historyDesc);
+        historyCard.append(year);
         console.log(currentHistory);
         
         for(let j = 0; j < currentHistory.history.length; j++){

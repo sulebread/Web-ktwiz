@@ -1,4 +1,4 @@
-{
+const playerList = {
     "pitcher": [
       {
         "position": "투수",

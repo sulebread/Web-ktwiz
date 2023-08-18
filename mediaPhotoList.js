@@ -24,5 +24,5 @@ const photoList = {
             "url": "https://wizzap.ktwiz.co.kr/files/article/2023/08/18/20230818102637.296-15d453c54c3d.jpg",
             "date": "2023.08.18"
         }
-    ]   
+    ]
 }

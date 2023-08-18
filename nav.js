@@ -21,7 +21,10 @@ const headerNavContent = `
                     <a href="wizpark.html">Wiz Park</a>
                 </li>
                 <li>
-                    <a href="media.html">Media</a>
+                    <a href="mediaPhoto.html">Photo</a>
+                </li>
+                <li>
+                    <a href="mediaVideo.html">Video</a>
                 </li>
             </ul>
         </nav>

@@ -1,12 +1,12 @@
-window.onload = function (){
+window.addEventListener('load', function (){
     drawPitcher();
     drawCatcher();
     drawInfielder();
     drawOutfielder();
-}
+});
 
 function drawPitcher(){
-    let pitcherUl = document.getElementById("pitcherList");
+    const pitcherUl = document.getElementById("pitcherList");
     
     for(let i = 0; i < playerList.pitcher.length; i++){
         //html 요소 생성
@@ -35,7 +35,7 @@ function drawPitcher(){
 }
 
 function drawCatcher(){
-    let catcherUl = document.getElementById("catcherList");
+    const catcherUl = document.getElementById("catcherList");
     
     for(let i = 0; i < playerList.catcher.length; i++){
         //html 요소 생성
@@ -64,7 +64,7 @@ function drawCatcher(){
 }
 
 function drawInfielder(){
-    let infielderUl = document.getElementById("infielderList");
+    const infielderUl = document.getElementById("infielderList");
     
     for(let i = 0; i < playerList.infielder.length; i++){
         //html 요소 생성
@@ -93,7 +93,7 @@ function drawInfielder(){
 }
 
 function drawOutfielder(){
-    let outfielderUl = document.getElementById("outfielderList");
+    const outfielderUl = document.getElementById("outfielderList");
     
     for(let i = 0; i < playerList.outfielder.length; i++){
         //html 요소 생성

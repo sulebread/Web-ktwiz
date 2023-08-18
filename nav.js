@@ -9,13 +9,16 @@ const headerNavContent = `
                     <a href="index.html">홈</a>
                 </li>
                 <li>
-                    <a href="introduce.html">ktwiz</a>
+                    <a href="history.html">History</a>
                 </li>
                 <li>
                     <a href="player.html">Player</a>
                 </li>
                 <li>
                     <a href="">Story</a>
+                </li>
+                <li>
+                    <a href="wizpark.html">Wiz Park</a>
                 </li>
             </ul>
         </nav>

@@ -1,6 +1,6 @@
-window.onload = function () {
+window.addEventListener('load', function () {
     drawHistory();
-}
+});
 
 function drawHistory(){
     let historyBox = document.getElementById("historyGridView");

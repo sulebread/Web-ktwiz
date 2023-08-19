@@ -7,43 +7,48 @@ body{
     overflow-x: hidden;
 }
 
-.wrapper{
+.subNav{
+    background: url("media/winner_emblem_black.png") no-repeat center center black;
+    height: 350px;
     width: 100vw;
-    height: 100vh;
-}
-
-.historyYear {
-    font-weight: bold;
-    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    align-items: flex-end;
 }
 
 .history{
     display: flex;
     flex-flow: row wrap;
-    width: 100vw;
-    height: 100vh;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 100px 0;
+}
+
+.historyYear {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.8;
+    border-bottom: 2px solid #ec0a0b;
+    margin-bottom: 10px;
 }
 
 .historyCard{
-    width: 50%;
-    /* border: 1px solid black; */
-}
-
-.historyCard::after{
-    content: "";
-    display: block;
-    flex-basis: clac(50% - 2px);
-    border: 2px solid red;
-    height: 100%;
-    position: absolute;
-    left: 50%;
+    width: 500px;
+    height: auto; 
+    padding: 20px;
 }
 
 .historyCard:nth-child(odd){
-    flex-grow: 1;
-    
+    margin-top: -30px;
 }
 
 .historyCard:nth-child(even){
-    flex-grow: 2;
+    margin-top: 100px;
+}
+
+.historyDesc{
+    line-height: 1.4;
 }

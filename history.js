@@ -8,7 +8,6 @@ function drawHistory(){
     for(let i = 0; i < historyList.totalhistory.length; i++){
         let historyCard = document.createElement("div");
         let year = document.createElement("div");
-        let historyDesc = document.createElement("div");
         
         const currentHistory = historyList.totalhistory[i];
         
@@ -21,7 +20,9 @@ function drawHistory(){
         console.log(currentHistory);
         
         for(let j = 0; j < currentHistory.history.length; j++){
-            let description = document.createElement("li");
+
+            let description = document.createElement("div");
+            description.className = "historyDesc";
             description.textContent = currentHistory.history[j];
             historyCard.appendChild(description);
         }

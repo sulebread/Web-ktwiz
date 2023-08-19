@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Oleo+Script&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700;900&display=swap%27');
+@import "reset.css";
+
+html, body{
+    font-family: 'Noto Sans KR';
+}
+
+.headerNav, .footerNav{
+    background-color: #111;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.footerNav{
+    justify-content: space-between;
+}
+
+.gnb-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.gnb{
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+    height: 100px;
+    margin: auto;
+}
+
+.gnb li{
+    list-style: none;
+    margin: 0px 50px;
+}
+
+.gnb a{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.contentWraper, .innerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tableView {
+    border: 0;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+.tableTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    border-top: 2px solid #444444;
+    border-bottom: 2px solid #444444;
+    padding: 10px;
+    font-weight: 500;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px solid #a1a1a1;
+    padding: 10px 20px;
+}
+
+.ktTable {
+    background-color: #111;
+    color: white;
+}
+
+.footerNav img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+

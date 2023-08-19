@@ -1,21 +1,253 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>kt wiz</title>
-        <link type="text/css" rel="stylesheet" href="style.css">
-        <script src="nav.js"></script>
-    </head>
-    <body>
-        <header id="headerNav"></header>
-        <main>
-            <div>
-                여기에 제목?
+
+<head>
+    <meta charset="utf-8">
+    <title>kt wiz</title>
+    <link type="text/css" rel="stylesheet" href="common.css">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <script src="nav.js"></script>
+</head>
+
+<body>
+    <header id="headerNav"></header>
+    <main class="contentWraper">
+        <div class="catchphrase">
+            <img src="./media/catchphrase.jpg">
+        </div>
+        <div class="tableContainer">
+            <div class="tableItems">
+                <div class="tableTitle">
+                    순위 (2023년 8월 18일 기준)
+                </div>
+                <table class="tableView">
+                    <tr>
+                        <th> 순위 </th>
+                        <th> 팀명 </th>
+                        <th> 경기 </th>
+                        <th> 승 </th>
+                        <th> 패 </th>
+                        <th> 무 </th>
+                        <th> 승률 </th>
+                        <th> 게임차 </th>
+                        <th> 연속 </th>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td> LG </td>
+                        <td> 102 </td>
+                        <td> 63 </td>
+                        <td> 37 </td>
+                        <td> 2 </td>
+                        <td> 0.630 </td>
+                        <td> - </td>
+                        <td> 1승 </td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td> SSG </td>
+                        <td> 101 </td>
+                        <td> 55 </td>
+                        <td> 45 </td>
+                        <td> 1 </td>
+                        <td> 0.550 </td>
+                        <td> 8 </td>
+                        <td> 4패 </td>
+                    </tr>
+                    <tr class="ktTable">
+                        <td> 3 </td>
+                        <td> KT </td>
+                        <td> 104 </td>
+                        <td> 56 </td>
+                        <td> 46 </td>
+                        <td> 2 </td>
+                        <td> 0.549 </td>
+                        <td> 8 </td>
+                        <td> 1패 </td>
+                    </tr>
+                    <tr>
+                        <td> 4 </td>
+                        <td> NC </td>
+                        <td> 100 </td>
+                        <td> 51 </td>
+                        <td> 47 </td>
+                        <td> 2 </td>
+                        <td> 0.520 </td>
+                        <td> 11 </td>
+                        <td> 1승 </td>
+                    </tr>
+                    <tr>
+                        <td> 5 </td>
+                        <td> 두산 </td>
+                        <td> 100 </td>
+                        <td> 49 </td>
+                        <td> 50 </td>
+                        <td> 1 </td>
+                        <td> 0.495 </td>
+                        <td> 13.5 </td>
+                        <td> 5패 </td>
+                    </tr>
+                    <tr>
+                        <td> 6 </td>
+                        <td> KIA </td>
+                        <td> 97 </td>
+                        <td> 47 </td>
+                        <td> 48 </td>
+                        <td> 2 </td>
+                        <td> 0.495 </td>
+                        <td> 13.5 </td>
+                        <td> 1패 </td>
+                    </tr>
+                    <tr>
+                        <td> 7 </td>
+                        <td> 롯데 </td>
+                        <td> 102 </td>
+                        <td> 50 </td>
+                        <td> 52 </td>
+                        <td> 0 </td>
+                        <td> 0.490 </td>
+                        <td> 14 </td>
+                        <td> 1패 </td>
+                    </tr>
+                    <tr>
+                        <td> 8 </td>
+                        <td> 한화 </td>
+                        <td> 101 </td>
+                        <td> 42 </td>
+                        <td> 53 </td>
+                        <td> 6 </td>
+                        <td> 0.442 </td>
+                        <td> 18.5 </td>
+                        <td> 1승 </td>
+                    </tr>
+                    <tr>
+                        <td> 9 </td>
+                        <td> 삼성 </td>
+                        <td> 104 </td>
+                        <td> 44 </td>
+                        <td> 59 </td>
+                        <td> 1 </td>
+                        <td> 0.427 </td>
+                        <td> 20.5 </td>
+                        <td> 2승 </td>
+                    </tr>
+                    <tr>
+                        <td> 10 </td>
+                        <td> 키움 </td>
+                        <td> 111 </td>
+                        <td> 44 </td>
+                        <td> 64 </td>
+                        <td> 3 </td>
+                        <td> 0.407 </td>
+                        <td> 23 </td>
+                        <td> 1승 </td>
+                    </tr>
+                </table>
             </div>
             <div>
-                여기에 사진들 넣고
+                <div class="tableTitle">
+                    2023.8 경기일정
+                </div>
+                <table class="tableView">
+                    <tr>
+                        <th> 날짜 </th>
+                        <th> 시간 </th>
+                        <th> 원정 </th>
+                        <th> 스코어 </th>
+                        <th> 홈 </th>
+                        <th> 구장 </th>
+                        <th> 방송사 </th>
+                    </tr>
+                    <tr>
+                        <td> 8.17(목) </td>
+                        <td> 18:30 </td>
+                        <td> KT </td>
+                        <td> 9:8 </td>
+                        <td> 두산 </td>
+                        <td> 잠실 </td>
+                        <td> KBS N SPORTS </td>
+                    </tr>
+                    <tr>
+                        <td> 8.18(금) </td>
+                        <td> 18:30 </td>
+                        <td> KT </td>
+                        <td> 6:11 </td>
+                        <td> 한화 </td>
+                        <td> 대전 </td>
+                        <td> MBC SPORTS+ </td>
+                    </tr>
+                    <tr>
+                        <td> 8.19(토) </td>
+                        <td> 18:00 </td>
+                        <td> KT </td>
+                        <td> </td>
+                        <td> 한화 </td>
+                        <td> 대전 </td>
+                        <td> SPOTV </td>
+                    </tr>
+                    <tr>
+                        <td> 8.20(일) </td>
+                        <td> 17:00 </td>
+                        <td> KT </td>
+                        <td> </td>
+                        <td> 한화 </td>
+                        <td> 대전 </td>
+                        <td> SPOTV </td>
+                    </tr>
+                    <tr>
+                        <td> 8.22(화) </td>
+                        <td> 18:30 </td>
+                        <td> KIA </td>
+                        <td> </td>
+                        <td> KT </td>
+                        <td> 수원 </td>
+                        <td> KBS N SPORTS </td>
+                    </tr>
+                    <tr>
+                        <td> 8.23(수) </td>
+                        <td> 18:30 </td>
+                        <td> KIA </td>
+                        <td> </td>
+                        <td> KT </td>
+                        <td> 수원 </td>
+                        <td> KBS N SPORTS </td>
+                    </tr>
+                    <tr>
+                        <td> 8.24(목) </td>
+                        <td> 18:30 </td>
+                        <td> KIA </td>
+                        <td> </td>
+                        <td> KT </td>
+                        <td> 수원 </td>
+                        <td> KBS N SPORTS </td>
+                    </tr>
+                    <tr>
+                        <td> 8.25(금) </td>
+                        <td> 18:30 </td>
+                        <td> KT </td>
+                        <td> </td>
+                        <td> 롯데 </td>
+                        <td> 사직 </td>
+                        <td> SBS SPORTS </td>
+                    </tr>
+                </table>
             </div>
-        </main>
-        <footer id="footerNav"></footer>
-    </body>
+        </div>
+        <div class="galleryContainer">
+            <div class="tableTitle">
+                팬 갤러리
+            </div>
+            <div class="galleryGridContainer">
+                <div class="gallery"> <img src="./media/gallery/gallery1.jpg" /> </div>
+                <div class="gallery"> <img src="./media/gallery/gallery2.jpg" /> </div>
+                <div class="gallery"> <img src="./media/gallery/gallery3.jpg" /> </div>
+                <div class="gallery"> <img src="./media/gallery/gallery4.jpg" /> </div>
+                <div class="gallery"> <img src="./media/gallery/gallery5.jpg" /> </div>
+                <div class="gallery"> <img src="./media/gallery/gallery6.jpg" /> </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footerNav"></footer>
+</body>
+
 </html>

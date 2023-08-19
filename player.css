@@ -108,3 +108,24 @@
     line-height: 100px;
     margin: 20px 0;
 }
+
+.player{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.player:hover{
+    background-color: lightgrey;
+}
+
+.tableView .playerBacknum, .tableView .playerName{
+    float: none;
+}
+
+.playerDetail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+}
